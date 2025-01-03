@@ -19,6 +19,10 @@
     --h1-margin-bottom: 1.5rem;
     --h2-margin-top: 2rem;
     --h2-margin-bottom: 1.5rem;
+
+    --h4-margin-top: 1.75rem;
+    --h4-margin-bottom: 0.85rem;
+
     --hx-margin-top: 1.5rem;
     --hx-margin-bottom: 1rem;
     --p-margin-top: 1rem;
@@ -28,6 +32,9 @@
 
     --h1-font-size: 2em;
     --h2-font-size: 1.8em;
+
+    --h4-font-size: 1.1rem;
+
     --hx-font-size: 1.3em;
     --p-font-size: 1em;
     --p-line-height: 1.5em;
@@ -35,7 +42,9 @@
 
     /* List indentation */
     --li-indent: 1.5rem;
-    --ul-margin-top: 1rem;
+
+    --ul-margin-top: 0.75rem;
+
     --ul-margin-bottom: 1rem;
 
     --toc-margin-top: 2rem;

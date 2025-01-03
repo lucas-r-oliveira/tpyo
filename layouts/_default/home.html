@@ -16,6 +16,7 @@
 </div>
 {{ end }}
 
+
 {{/* Social Icons */}}
 
 {{ with site.Params.social }}
@@ -29,6 +30,33 @@
     {{- end }}
 </div>
 {{ end }}
+
+{{/* TODO: Interests Section */}}
+<div class="flex-row">
+    {{ with .Site.Params.HomeOnScreenInterests }}
+    <div>
+        <h4>On-Screen Interests</h4>
+        <ul> 
+            {{ range . }}
+            <li>{{ . }}</li>
+            {{ end }}
+        </ul>
+        {{ end }}
+    </div>
+
+    {{ with .Site.Params.HomeOffScreenInterests }}
+
+    <div>
+        <h4>Off-Screen Interests</h4>
+        <ul> 
+            {{ range . }}
+            <li>{{ . }}</li>
+            {{ end }}
+        </ul>
+        {{ end }}
+    </div>
+</div>
+
 
 {{/* Collection Section */}}
 
@@ -57,5 +85,7 @@
 
     {{ end }}
 </div>
+
+
 
 {{ end }}

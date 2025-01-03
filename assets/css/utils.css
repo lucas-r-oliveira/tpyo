@@ -2,6 +2,10 @@
     display: flex;
 }
 
+.align-right {
+    justify-content: flex-end
+}
+
 .bold {
     font-weight: bold;
 }
@@ -17,3 +21,13 @@
 .monospace {
     font-family: var(--font-mono);
 }
+
+.selected {
+    
+}
+
+.flex-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+} 
