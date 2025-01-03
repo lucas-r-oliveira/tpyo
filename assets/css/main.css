@@ -149,7 +149,7 @@ hr {
 }
 
 .header p {
-  font-size: small;
+  font-size: var(--header-menu-font-size);
   font-family: var(--font-mono);
   margin-top: var(--header-menu-top-gap);
   margin-right: var(--header-menu-side-gap);

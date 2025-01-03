@@ -10,6 +10,7 @@
     --header-bottom-gap: 2rem;
     --header-menu-side-gap: .5rem;
     --header-menu-top-gap: 1rem;
+    --header-menu-font-size: 1rem;
 
     /* Typography */
     --font-body: 'Literata', Georgia, Cambria, 'Noto Serif', 'Droif Serif', ui-serif, serif;
